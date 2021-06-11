@@ -1,0 +1,27 @@
+ /* тег body не имеет внутренних и внешних отступов*/
+ body{
+    margin: 0;
+    padding: 0;
+}
+/*тег div : высота 100 пикселей, ширина 200 пикселей, цвет заднего фона красный, внешние отступы 10 пикселей во все стороны*/
+div{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+}
+/* тег div с классом text не имеет фона, имеет верхний отступ 10 пикселей, имеет высоту и ширину 100%*/
+div.text{
+	background: none;
+	margin-top: 10px;
+	height: 100%;
+	width:100%;
+}
+/* идентификатор   зеленый задний фон*/
+#d2 {
+    background-color: green;
+}
+/*класс first имеет синий  фон*/
+.first {
+    background-color: blue;
+}
